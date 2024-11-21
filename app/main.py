@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from routers import user, task
-from sqlalchemy import Column, Integer, String
+from app.routers import user, task
+
 app = FastAPI()
 
 
